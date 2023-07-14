@@ -2,3 +2,20 @@
 .content{
     margin: 2%;
 }
+
+.header{
+    max-height: 25rem;
+    height: 25vw;
+}
+
+.nav-item{
+    font-size: min(1vw);
+    font-size: max(1rem);
+}
+
+h1{
+ 
+}
+h3{
+
+}
