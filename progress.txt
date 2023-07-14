@@ -1,0 +1,5 @@
+July 14 2023
+Decied to start this since the progress report is due soon, maybe.
+But while I would love to use bootstraps example of a side bar I'm having difficulties using the flexbox it the way I want.
+(https://getbootstrap.com/docs/5.3/examples/sidebars/ The side bar references I was using)
+So I've opted to use their navbar class to do this instead as it will make my job easier.
