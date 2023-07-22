@@ -1,4 +1,30 @@
 /*Styles for every page*/
-body{
-    background-color: darkgray;
+.content{
+    margin: 2%;
+}
+
+.header{
+    max-height: 20rem;
+    height: 20vw;
+}
+
+.nav-item{
+    font-size: min(1vw);
+    font-size: max(1rem);
+}
+
+img{
+    max-height: 20rem;
+    height: 20vw;
+    width: device-width;
+    background-size: cover;
+}
+.maintxt {position: relative;}
+.maintxt > img, .overlay-text {position: absolute;}
+
+h1{
+ 
+}
+h3{
+
 }
