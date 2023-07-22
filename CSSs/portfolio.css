@@ -19,12 +19,3 @@ img{
     width: device-width;
     background-size: cover;
 }
-.maintxt {position: relative;}
-.maintxt > img, .overlay-text {position: absolute;}
-
-h1{
- 
-}
-h3{
-
-}
