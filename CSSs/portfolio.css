@@ -1,7 +1,10 @@
 /*Styles for every page*/
 .header{
-    background-image: url(../Images/header-bg.jpg);
+    background-image: url(../Images/header-bg.jpg); /*https://www.rawpixel.com/image/5923861/code-free-public-domain-cc0-photo*/
     background-size: cover;
+}
+h1, h2{
+    padding: 1vw;
 }
 .content{
     margin: 2%;
