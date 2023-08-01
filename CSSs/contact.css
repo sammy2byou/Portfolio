@@ -19,7 +19,6 @@ p{
 .icon-link{
     font-size: var(--responsive-font-size);
     --bs-icon-link-transform: translate3d(0, -1.5vw, 0);
-
 }
 
 .bi{
