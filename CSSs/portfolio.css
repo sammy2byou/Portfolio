@@ -5,6 +5,7 @@
 }
 h1, h2{
     padding: 1vw;
+    margin-bottom: 0;
 }
 .content{
     margin: 2%;
@@ -20,9 +21,3 @@ h1, h2{
     font-size: max(1rem);
 }
 
-img{
-    max-height: 20rem;
-    height: 20vw;
-    width: device-width;
-    background-size: cover;
-}
