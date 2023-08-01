@@ -1,0 +1,39 @@
+.content{
+    padding-bottom: 20vh;/*Here cause it wouldn't include the grid gap*/
+}
+#content{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 5%;
+    color: white;
+}
+h4{
+    grid-column: span 2;
+    text-align: center;
+}
+.icon{
+    grid-column: 1;
+    text-align: right;
+    --bs-icon-link-transform: translate3d(0, -100%, 0);   
+}
+a{
+    justify-content: right;
+}
+.icon-description{
+    grid-column: 2;
+}
+svg{
+    display: block;
+    height: 24px;
+    margin-left: auto;
+}
+/*Technically I would have loved to  use lists but I'm over that now*/
+/*
+.content li{
+    border: 1px solid black;
+    border-bottom: none;
+}
+.content li:last-child{
+    border-bottom: 1px solid black;
+}
+*/
