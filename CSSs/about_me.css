@@ -1,6 +1,5 @@
 .content{
     display: grid;
-    padding: 5%;
     grid-template-columns: 25% auto auto;
 }
 
