@@ -4,6 +4,12 @@
     /*font-size: clamp(min, prevered, max); */
     --responsive-font-size: clamp(1rem, 1.5vw, 3rem);
 }
+
+.content{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
 .content div{
     padding: 5%;
 }
@@ -26,4 +32,13 @@ p{
 }
 #links a{
     margin-top: 1.5vw;
+}
+@media screen and (max-width: 400px) {
+    .content{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .content > div{
+        grid-column: span 1;
+    }
 }
