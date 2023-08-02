@@ -13,6 +13,7 @@
     grid-column-start: 3;
     grid-row: span 2;
     font-size: medium;
+    padding-left: 2%;
 }
 #edu{
     grid-row: 2;
