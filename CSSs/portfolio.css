@@ -7,6 +7,7 @@ h1, h2{
     padding: 1vw;
     margin-bottom: 0;
 }
+
 .content{
     margin: 2%;
 }
@@ -16,8 +17,13 @@ h1, h2{
     height: 20vw;
 }
 
-.nav-item{
-    font-size: min(1vw);
-    font-size: max(1rem);
+@media screen and (max-width: 400px) {
+    h1{
+        font-size: 100%;
+    }
+    h2{
+        font-size: 100%;
+
+    }
 }
 
