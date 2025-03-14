@@ -14,29 +14,54 @@
     
     <!--Bootstrap CSS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="CSSs/portfolio.css">
+    <link rel="stylesheet" type="text/css" href="CSS/portfolio.css">
   </head>
   <script>
     window.onload(alert("This site is currently under construction. \n Last updated July 2023 for a school project"));
   </script>
   <body class="bg-secondary">
-    <div>
-      
       <nav>
         <ul class="nav nav-tabs text-center nav-fill bg-secondary-subtle border border-0">
             <li class="nav-item"><a href="index.html" class="nav-link text-white active bg-secondary border border-0" aria-current="page">Samantha McKenzie</a></li>
-            <li class="nav-item"><a href="Pages/Resume.html" class="nav-link text-black border border-0">Resume</a></li>
+            <li class="nav-item"><a href="_Resume.pdf" class="nav-link text-black border border-0" target="_none">Resume</a></li>
             <li class="nav-item"><a href="https://www.linkedin.com/in/samantha-v-mckenzie/" class="nav-link text-black border border-0" target="_none">LinkedIn</a></li>
-            <li class="nav-item"><a href="Pages/Skills.html" class="nav-link text-black border border-0">GitHub</a></li>
+            <li class="nav-item"><a href="https://github.com/sammy2byou" class="nav-link text-black border border-0">GitHub</a></li>
             <li class="nav-item"><a href="Pages/Projects.html" class="nav-link text-black border border-0">Projects</a></li>
         </ul>
       </nav>
-      </div>
       <div class="content bg-black bg-opacity-10">
-        <div>
+        <div class="text-center" style="height: 100vh;">
           <p class="text-white">Hi! My name is </p>
           <h1 class="text-white">Samantha McKenzie</h1>
           <p class="text-white">I am a Compuer Science graduate from the University of Windsor. I'm an avid software and web developer. This page is to display my skills and projects. With previous work experience in the IT service desk field.</p>
+          <a href="#bottom" type="button" class="btn btn-dark btn-outline-secondary text-white">Contact Me</a>
+        </div>
+        <!--PLACE HOLDER TEXT-->
+        <div id="bottom" class=" content  bg-black bg-opacity-10">
+          <div class="text-white row row-cols-1 row-cols-md-2 row-cols-lg-2 g-2">
+            <div class="col">
+              <h2>Site Map</h2>
+              <ul class="d-flex flex-column">
+                <li class="nav-item"><a class="text-white" href="index.html">Samantha McKenzie</a></li>
+                <li class="nav-item"><a class="text-white" href="_Resume.pdf" target="_none">Resume</a></li>
+                <li class="nav-item"><a class="text-white" href="https://www.linkedin.com/in/samantha-v-mckenzie/" target="_none">LinkedIn</a></li>
+                <li class="nav-item"><a class="text-white" href="https://github.com/sammy2byou" target="_none">GitHub</a></li>
+                <li class="nav-item"><a class="text-white" href="Pages/Projects.html">Projects</a></li>
+              </ul>
+            </div>
+            <div class="text-white col">
+              <h1>Contact me</h1>
+              <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-2">
+              <p>Direct message me on Linkedin, send an E-mail, or keep up to date on my current projects on GitHub!</p>
+              <div id="links">
+              <div class="d-flex flex-column col">
+                <a href="https://github.com/sammy2byou" class="link-light icon-link icon-link-hover"><i class="bi bi-github"></i>GitHub</a>
+                <a href="https://www.linkedin.com/in/samantha-v-mckenzie/" class="link-light icon-link icon-link-hover"><i class="bi bi-linkedin"></i>LinkedIn</a>
+                <a href="mailto:mcken11d@uwindsor.ca" class="link-light icon-link icon-link-hover"><i class="bi bi-envelope"></i>E-mail (mcken11d@uwindsor.ca)</a>
+              </div>
+              </div>
+          </div>
+          
         </div>
 
       </div>
